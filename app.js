@@ -20,71 +20,71 @@ const clearBtn = document.querySelector(".clear");
 const equalSignButton = document.querySelector(".equal-sign-button");
 
 const additionAction = () => {
-    
+    display.textContent += "+";
 };
 
 const subtractionAction = () => {
-    
+    display.textContent += "-";
 };
 
 const multiplicationAction = () => {
-    
+    display.textContent += "x";
 };
 
 const divisionAction = () => {
-    
+    display.textContent += "÷";
 };
 
 const oneAction = () => {
-    
+    display.textContent += "1";
 };
 
 const twoAction = () => {
-    
+    display.textContent += "2";
 };
 
 const threeAction = () => {
-    
+    display.textContent += "3";
 };
 
 const fourAction = () => {
-    
+    display.textContent += "4";
 };
 
 const fiveAction = () => {
-    
+    display.textContent += "5";
 };
 
 const sixAction = () => {
-    
+    display.textContent += "6";
 };
 
 const sevenAction = () => {
-    
+    display.textContent += "7";
 };
 
 const eightAction = () => {
-    
+    display.textContent += "8";
 };
 
 const nineAction = () => {
-    
+    display.textContent += "9";
 };
 
 const zeroAction = () => {
-    
+    display.textContent += "0";
 };
 
 const dotAction = () => {
-    
+    display.textContent += ".";
 };
 
 const clearAction = () => {
-    
+    display.textContent = "";
 };
 
 const equalAction = () => {
-    
+
 };
 
 additionBtn.addEventListener("click", additionAction);
