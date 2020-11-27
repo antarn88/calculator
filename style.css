@@ -40,6 +40,7 @@ body {
 .operation-button {
 	margin-right: .8rem;
 	background-color: rgba(0, 0, 0, .15);
+	border: 1px solid rgba(0, 0, 0, .15);
 	width: 25%;
 	height: 3rem;
 	text-align: center;
@@ -50,6 +51,12 @@ body {
 .operation-button:last-child {
 	margin-right: 0;
 }
+
+.operation-button:hover {
+	background-color: rgba(0, 0, 0, .2);
+	border: 1px solid rgba(0, 0, 0, .1);
+}
+
 .numbers-container-and-equal-sign-container {
 	display: flex;
 }
@@ -72,15 +79,23 @@ body {
 	font-size: 1.3rem;
 	user-select: none;
 }
+
+.number-button:hover {
+	background-color: rgba(255, 255, 255, .2);
+}
+
 .equal-sign-container {
 	width: 22.5%;
 }
 .equal-sign-button {
-	background-color: dodgerblue;
+	background-color: rgb(30, 144, 255);
 	height: 93.5%;
 	text-align: center;
 	line-height: 15rem;
 	color: white;
 	font-size: 1.3rem;
 	user-select: none;
+}
+.equal-sign-button:hover {
+	background-color:  rgba(30, 144, 255, .9);
 }
