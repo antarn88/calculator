@@ -56,10 +56,9 @@ clearBtn.addEventListener("click", clearAction);
 const equalAction = () => {
     let result = 0;
 
-    const displayValue = display.textContent;
-    const numbersStr = displayValue.split("+").join(", ").split("-").join(", ").split("x").join(", ").split("÷").join(", ");
+    const numbersStr = display.textContent.split("+").join(", ").split("-").join(", ").split("x").join(", ").split("÷").join(", ");
     const numbersArray = numbersStr.split(", ").map(number => parseFloat(number));
-    const signsArray = Array.from(displayValue).filter(char => char === "+" || char === "-" || char === "x" || char === "÷");
+    const signsArray = Array.from(display.textContent).filter(char => char === "+" || char === "-" || char === "x" || char === "÷");
 
     numbersArray.map((number, index) => {
         if (signsArray[index] === "+") !index ? result = number + numbersArray[index + 1] : result += numbersArray[index + 1];
