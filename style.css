@@ -19,7 +19,7 @@ body {
 	background-color: rgba(255, 255, 255, .75);
 	padding: 1.7rem;
 	width: 28rem;
-	height: 28rem;	
+	height: 27rem;
 }
 .display {
 	border: 1px solid rgba(0, 0, 0, .15);
@@ -43,11 +43,14 @@ body {
 	border: 1px solid rgba(0, 0, 0, .15);
 	background-color: rgba(0, 0, 0, .15);
 	width: 25%;
-	height: 2.9rem;
+	height: 45px;
 	text-align: center;
-	line-height: 2.9rem;
+	line-height: 2.2;
 	font-size: 1.3rem;
 	user-select: none;
+}
+.operation-button:focus {
+	outline: 1px solid black;
 }
 .operation-button:last-child {
 	margin-right: 0;
@@ -72,11 +75,14 @@ body {
 	border: 1px solid rgba(0, 0, 0, .15);
 	background-color: rgba(255, 255, 255, .4);
 	width: 29%;
-	height: 2.9rem;
+	height: 45px;
 	text-align: center;
-	line-height: 2.859rem;
+	line-height: 2.2;
 	font-size: 1.3rem;
 	user-select: none;
+}
+.number-button:focus {
+	outline: 1px solid black;
 }
 .number-button:hover {
 	background-color: rgba(255, 255, 255, .2);
@@ -86,12 +92,15 @@ body {
 }
 .equal-sign-button {
 	background-color: rgb(30, 144, 255);
-	height: 93.5%;
+	height: 228px;
 	text-align: center;
-	line-height: 14.5rem;
+	line-height: 11;
 	color: white;
 	font-size: 1.3rem;
 	user-select: none;
+}
+.equal-sign-button:focus {
+	outline: 1px solid black;
 }
 .equal-sign-button:hover {
 	background-color: rgba(30, 144, 255, .9);
