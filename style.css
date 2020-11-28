@@ -30,7 +30,6 @@ body {
 	text-align: right;
 	line-height: 2;
 	font-size: 2rem;
-	user-select: none;
 }
 .operation-buttons-container {
 	display: flex;
